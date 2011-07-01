@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.localflavor.us.models import *
 from django.utils.translation import ugettext_lazy as _
-from glob.helpers import get_lat_lng
+from goodies.helpers import get_lat_lng
 
 class Place(models.Model):
     
